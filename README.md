@@ -5,15 +5,15 @@
 # Lab9Web
 Disini saya akan membuat prpgram modular sederhana menggunakan PHP
 # Langkah - langkah Praktikum
+![1](https://user-images.githubusercontent.com/101688124/171335002-e89a58d5-1e27-46d9-9a47-2da0ea5c489c.png)
 
-## Menjalankan XAMPP server
-![xampp](scs/1.png)
+## garis XAMPP server
 
 ## 1). Buat folder baru dengan nama lab9_php_modular pada docroot webserver
-![folder](scs/2.png)
 
 ## 2). Buat file baru dengan nama header.php
-```
+```![2](https://user-images.githubusercontent.com/101688124/171335060-a9f94cb3-1380-496c-9e0f-4bc2595a7183.png)
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +32,8 @@ Disini saya akan membuat prpgram modular sederhana menggunakan PHP
         <a href="kontak.php">Kontak</a>
 </nav>
 ```
-![gambar](scs/3.png)
+![3](https://user-images.githubusercontent.com/101688124/171335201-b6c8e9b6-843d-47c3-85d2-343150cd4765.png)
+
 
 ## 3). Buat file baru dengan nama footer.php
 ```
@@ -43,7 +44,8 @@ Disini saya akan membuat prpgram modular sederhana menggunakan PHP
 </body>
 </html>
 ```
-![gambar](scs/4.png)
+![4](https://user-images.githubusercontent.com/101688124/171335222-4663fbb9-3f34-4247-8a50-de82be355878.png)
+
 
 ## 4). Buat file baru dengan nama home.php
 ```
@@ -56,7 +58,8 @@ Disini saya akan membuat prpgram modular sederhana menggunakan PHP
 
 <?php require('footer.php'); ?>
 ```
-![home](scs/5.png)
+![5](https://user-images.githubusercontent.com/101688124/171335246-2429253c-cfae-43b7-b058-a77df1c43a65.png)
+
 
 ## 5). Buat file baru dengan nama about.php
 ```
@@ -69,13 +72,16 @@ Disini saya akan membuat prpgram modular sederhana menggunakan PHP
 
 <?php require('footer.php'); ?>
 ```
-![about](scs/6.png)
+![6](https://user-images.githubusercontent.com/101688124/171335279-6f506e0c-f1cf-4444-b38b-9b36538f22ea.png)
+
 
 ## 6). Hasil tampilan halaman home pada browser dengan menggunakan modular header dan footer
-![hasil](scs/7.png)
+![7](https://user-images.githubusercontent.com/101688124/171335299-6ffb2042-136e-4967-a72c-66bebd86a914.png)
+
 
 ## 7). Hasil tampilan halaman about pada browser dengan menggunakan modular header dan footer
-![hasil](scs/8.png)
+![8](https://user-images.githubusercontent.com/101688124/171335307-70750cea-699d-4043-84ee-d418cba27aa1.png)
+
 
 ----------------------------------------------------
 
@@ -85,9 +91,11 @@ database, sehingga setiap halamannya memiliki template tampilan yang sama.
 
 # Hasil Run
 ## - Tampilan halaman home
-![home](scs/9.png)
+![9](https://user-images.githubusercontent.com/101688124/171335328-fe351756-bc4d-4755-81b7-787acf9b7233.png)
+
 
 ## - Tampilan halaman tambah barang
-![tambah](scs/10.png)
+![10](https://user-images.githubusercontent.com/101688124/171335351-bc9a2162-ae62-44b9-9538-b61214a5b467.png)
+
 
 # SEKIAN & TERIMA KASIH
